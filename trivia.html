@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>折り紙-豆知識</title>
+    <meta name="description" content="親子で日本文化に触れてもらう折り紙サイト">
+    <link rel="icon" type="image/png" href="images/logo.PNG">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- JS -->
+    <script src="js/trivia.js"></script>
+</head>
+
+<body>
+    <div id="trivia" class="big-bg">
+        <footer class="footer-top">
+            <dev class="wrapper">
+                <header class="page-header wrapper">
+                    <h1><a href="index.html"><img class="logo" src="images/logo.PNG" alt="logo"></a>
+                    </h1>
+                    <nav>
+                        <ul class="main-nav">
+                            <li><a href="fold.html"><ruby>折<rt>お</rt></ruby>り<ruby>方<rt>かた</rt></ruby></a></li>
+                            <li><a href="quiz.html"><ruby>クイズ<rt>　</rt></ruby></a></li>
+                            <li><a href="trivia.html"><ruby>豆知識<rt>まめちしき</rt></ruby></a></li>
+                            <li><a href="contact.html">お<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせ</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </dev>
+        </footer>
+
+        <div class="wrapper">
+            <h2 class="page-title"><ruby>豆知識<rt>まめちしき</rt></ruby></h2>
+        </div><!-- /.wrapper-->
+
+        <div class="choice">
+            <p>
+                <div id="q1" class="q">
+                    Q1　<ruby>折<rt>お</rt></ruby>り<ruby>紙<rt>がみ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>はいつ？</div>
+                <div id="t1" class="tango" onclick="maru1()">
+                    11<ruby>月<rt>がつ</rt></ruby>11<ruby>日<rt>にち</rt></ruby></div>
+                <div id="t2" class="tango" onclick="batu1_1()">
+                    01<ruby>月<rt>がつ</rt></ruby>01<ruby>日<rt>にち</rt></ruby></div>
+                <div id="t3" class="tango" onclick="batu1_2()">
+                    10<ruby>月<rt>がつ</rt></ruby>10<ruby>日<rt>にち</rt></ruby></div>
+                <div id="answer1" class="answer"></div>
+            </p>
+            <br>
+           
+            <p>
+                <div id="q2" class="q">
+                    Q2　<ruby>病気<rt>びょうき</rt></ruby>・けがの<ruby>回復<rt>かいふく</rt></ruby>や<ruby>平和<rt>へいわ</rt></ruby>を<ruby>願<rt>ねが</rt></ruby>って<ruby>折<rt>お</rt></ruby>り<ruby>紙<rt>がみ</rt></ruby>でつくるものは？</div>
+                <div id="t4" class="tango" onclick="batu2_1()">てるてる<ruby>坊主<rt>ぼうず</rt></ruby></div>
+                <div id="t5" class="tango" onclick="batu2_2()"><ruby>花束<rt>はなたば</rt></ruby></div>
+                <div id="t6" class="tango" onclick="maru2()"><ruby>千羽鶴<rt>せんばづる</rt></ruby></div>
+                <div id="answer2" class="answer"></div>
+            </p>
+            <br>
+           
+            <p>
+                <div id="q3" class="q">
+                    Q3　<ruby>昔<rt>むかし</rt></ruby>、<ruby>鶴<rt>つる</rt></ruby>を<ruby>折<rt>お</rt></ruby>るのが<ruby>流行<rt>はや</rt></ruby>ったのは、<ruby>鶴<rt>つる</rt></ruby>を<ruby>折<rt>お</rt></ruby>るとどうなると<ruby>考<rt>かん</rt></ruby>えられていたためか。</div>
+                <div id="t7" class="tango" onclick="maru3()">
+                    <ruby>寿命<rt>じゅみょう</rt></ruby>が<ruby>延<rt>の</rt></ruby>びる</div>
+                <div id="t8" class="tango" onclick="batu3_1()">
+                    <ruby>金<rt>かね</rt></ruby><ruby>持<rt>も</rt></ruby>ちになる</div>
+                <div id="t9" class="tango" onclick="batu3_2()">
+                    <ruby>空<rt>そら</rt></ruby>を<ruby>飛<rt>と</rt></ruby>べる</div>
+                <div id="answer3" class="answer"></div>
+            </p>
+            <br>
+           
+            <p>
+                <div id="q4" class="q">
+                    Q4　「<ruby>折<rt>お</rt></ruby>り<ruby>紙<rt>がみ</rt></ruby><ruby>付<rt>つ</rt></ruby>き」の<ruby>正<rt>ただ</rt></ruby>しい<ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>はどっち？</div>
+                <div id="t10" class="tango" onclick="batu4()">
+                    <ruby>折<rt>お</rt></ruby>り<ruby>紙<rt>がみ</rt></ruby>
+                    <ruby>付<rt>つ</rt></ruby>き」の<ruby>不良<rt>ふりょう</rt></ruby></div>
+                <div id="t11" class="tango" onclick="maru4()">
+                    <ruby>折<rt>お</rt></ruby>り<ruby>紙<rt>がみ</rt></ruby>
+                    <ruby>付<rt>つ</rt></ruby>き」の<ruby>秀才<rt>しゅうさい</rt></ruby></div>
+                <div id="answer4" class="answer"></div>
+            </p>
+            <br>
+
+            <p>
+                <div id="q5" class="q">
+                    Q5　<ruby>折<rt>お</rt></ruby>り<ruby>紙<rt>がみ</rt></ruby>は<ruby>折<rt>お</rt></ruby>るものであるから、<ruby>切<rt>き</rt></ruby>ったりしてはいけないか。</div>
+                <div id="t12" class="tango" onclick="batu5()">
+                    <ruby>切<rt>き</rt></ruby>ったりしてはいけない</div>
+                <div id="t13" class="tango" onclick="maru5()">
+                    <ruby>切<rt>き</rt></ruby>ったりしても<ruby>良<rt>よ</rt></ruby>い</div>
+                <div id="answer5" class="answer"></div>
+            </p>
+            <br>
+
+            <a class="btn btn-flat" id="button" onclick="button()"><span>
+                <ruby>最終結果<rt>さいしゅうけっか</rt></ruby></span></a>
+            <div class="text1">
+                <div id="re1" class="re1"></div>
+                <div id="te1" class="te1"></div>
+                <a href=" " id="link">
+                    <img  id="image" class="img" src=" ">
+                </a>
+            </div><!-- text1 -->
+            <a href="trivia.html" class="btn btn-flat" id="button1"><span>
+                <ruby>再挑戦<rt>さいちょうせん</rt></ruby></span></a>
+            
+        </div><!-- choice -->
+
+    </div><!-- /.trivia -->
+
+    <footer class="footer-under">
+        <div class="wrapper">
+            <p><small>&copy; 2021 origami</small></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>折り紙-問い合わせ</title>
+    <meta name="description" content="親子で日本文化に触れてもらう折り紙サイト">
+    <link rel="icon" type="image/png" href="images/logo.PNG">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- JS -->
+    <script src="js/trivia.js"></script>
+</head>
+
+<body>
+    <div id="contact" class="big-bg">
+        <footer class="footer-top">
+            <dev class="wrapper">
+                <header class="page-header wrapper">
+                    <h1><a href="index.html"><img class="logo" src="images/logo.PNG" alt="logo"></a>
+                    </h1>
+                    <nav>
+                        <ul class="main-nav">
+                            <li><a href="fold.html"><ruby>折<rt>お</rt></ruby>り<ruby>方<rt>かた</rt></ruby></a></li>
+                            <li><a href="quiz.html"><ruby>クイズ<rt>　</rt></ruby></a></li>
+                            <li><a href="trivia.html"><ruby>豆知識<rt>まめちしき</rt></ruby></a></li>
+                            <li><a href="contact.html">お<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせ</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </dev>
+        </footer>
+        <div class="wrapper">
+            <h2 class="page-title">お<ruby>問<rt>と</rt></ruby>い<ruby>合<rt>あ</rt></ruby>わせ</h2>
+
+            <form method="post" action="#" onsubmit="return check()">
+                <div>
+                    <label for="name">お<ruby>名前<rt>なまえ</rt></ruby></label>
+                    <input type="text" id="name" name="your-name" required>
+                </div>
+                <div>
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="your-email" required>
+                </div>
+                <div>
+                    <label for="message">メッセージ</label>
+                    <textarea id="message" name="your-message" required></textarea>
+                </div>
+                <div>
+                    <a class="btn btn-flat" id="sub" >
+                        <span>
+                            <input class="sub1" type="submit" value="送信">
+                        </span>
+                    </a>
+                </div>
+            </form>
+        </div><!-- /.wrapper-->
+    </div><!-- /.contact -->
+    
+    <footer class="footer-under">
+        <div class="wrapper">
+            <p><small>&copy; 2021 origami</small></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
